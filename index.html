@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Sanrio HAPIDANBUI</title>
+  <title>Index - Medilab Bootstrap Template</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -15,12 +15,13 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
@@ -28,8 +29,8 @@
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: HeroBiz
-  * Template URL: https://bootstrapmade.com/herobiz-bootstrap-business-template/
+  * Template Name: Medilab
+  * Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
   * Updated: Aug 07 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
@@ -38,83 +39,99 @@
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+  <header id="header" class="header sticky-top">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">HAPIDANBUI</h1>
-        <span>.</span>
-      </a>
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">Home<br></a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Gallery</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+    <div class="branding d-flex align-items-center">
 
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">Taoyuan</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a class="cta-btn d-none d-sm-block" href="#appointment">Make an Appointment</a>
+
+      </div>
 
     </div>
+
   </header>
 
   <main class="main">
 
-    <!-- Hero Section -->
-<section id="hero" class="hero section">
+<!-- Services Section -->
+<section id="services" class="services section">
 
-  <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
-    <img src="assets/img/HAPI1.jpg" class="img-fluid animated" alt="">
-    <h1>歡迎來到 <span>HAPIDANBUI 的世界</span></h1>
-    <p>與 HAPIDANBUI 的好朋友們一起展開快樂與冒險的旅程！</p>
-    <div class="d-flex">
-      <a href="#about" class="btn-get-started scrollto">開始探索</a>
-      </a>
-    </div>
-  </div>
-
-</section><!-- /Hero Section -->
-
-    <!-- Featured Services Section -->
-<section id="featured-services" class="featured-services section">
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>桃園旅遊景點導覽</h2>
+    <p>探索桃園最具特色的景點，無論你喜歡人文風情、自然生態或現代展館，這裡都有精彩體驗等你來發現。</p>
+  </div><!-- End Section Title -->
 
   <div class="container">
 
     <div class="row gy-4">
 
-      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-        <div class="service-item position-relative">
-          <div class="icon"><i class="bi bi-activity icon"></i></div>
-          <h4><a href="" class="stretched-link">快樂夥伴</a></h4>
-          <p>與 Pochacco、Tuxedosam、Hangyodon 和其他朋友一起享受快樂時光！</p>
+      <!-- 大溪老街 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative text-center">
+
+          <img src="https://travel.tycg.gov.tw/content/images/attractions/89647/1024x768_attractions-image-xeikzlg7xuyx-n-880wmwq.jpg" alt="大溪老街" class="img-fluid rounded" style="height: 200px; object-fit: cover;">
+
+          <a href="#" class="stretched-link">
+            <h3>大溪老街</h3>
+          </a>
+          <p>漫步於古色古香的老街，欣賞巴洛克風格建築，品嚐在地美食與傳統糕餅，感受濃濃的懷舊氛圍。</p>
+          <a href="https://maps.app.goo.gl/QLgUW7YGSDSazvCQ9" target="_blank" class="btn btn-primary mt-2">查看更多</a>
         </div>
       </div><!-- End Service Item -->
 
-      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-        <div class="service-item position-relative">
-          <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-          <h4><a href="" class="stretched-link">冒險旅程</a></h4>
-          <p>探索 HAPIDANBUI 的世界，發現每位角色的有趣故事與經歷！</p>
+      <!-- 埔心牧場 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative text-center">
+
+          <img src="https://dina.tw/wp-content/uploads/2023/10/01%E5%9F%94%E5%BF%83%E7%89%A7%E5%A0%B4.jpg" alt="埔心牧場" class="img-fluid rounded" style="height: 200px; object-fit: cover;">
+
+          <a href="#" class="stretched-link">
+            <h3>埔心牧場</h3>
+          </a>
+          <p>適合親子同遊的休閒農場，可近距離接觸動物、參與手作體驗，享受悠閒的農場時光與綠意自然。</p>
+          <a href="https://maps.app.goo.gl/tMgQ3vRjLEKWXeud6" target="_blank" class="btn btn-primary mt-2">查看更多</a>
         </div>
       </div><!-- End Service Item -->
 
-      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-        <div class="service-item position-relative">
-          <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
-          <h4><a href="" class="stretched-link">可愛週邊</a></h4>
-          <p>收集各種 HAPIDANBUI 角色的精美商品，讓你的日常充滿療癒感！</p>
-        </div>
-      </div><!-- End Service Item -->
+      <!-- Xpark -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative text-center">
 
-      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-        <div class="service-item position-relative">
-          <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-          <h4><a href="" class="stretched-link">最新消息</a></h4>
-          <p>不錯過任何 HAPIDANBUI 的最新活動、聯名合作與特別企劃！</p>
+          <img src="https://www.xpark.com.tw/media/202312/202312270119110SnT.jpg" alt="Xpark" class="img-fluid rounded" style="height: 200px; object-fit: cover;">
+
+          <a href="#" class="stretched-link">
+            <h3>Xpark 都會型水族館</h3>
+          </a>
+          <p>結合科技與生態展示，Xpark 打造出身歷其境的海洋世界，適合情侶、家庭與科普愛好者前來探索。</p>
+          <a href="https://maps.app.goo.gl/TmkXhedCju9aHvJn9" target="_blank" class="btn btn-primary mt-2">查看更多</a>
         </div>
       </div><!-- End Service Item -->
 
@@ -122,457 +139,90 @@
 
   </div>
 
-</section><!-- /Featured Services Section -->
+</section><!-- /Services Section -->
 
 
-<!-- About Section -->
-<section id="about" class="about section">
 
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>關於 HAPIDANBUI</h2>
-    <p>一起認識這群充滿活力、個性獨特的三麗鷗角色吧！</p>
-  </div><!-- End Section Title -->
-
-  <div class="container" data-aos="fade-up">
-
-    <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
-
-      <div class="col-lg-5">
-        <div class="about-img">
-          <img src="assets/img/HAPI3.jpg" class="img-fluid" alt="">
-        </div>
-      </div>
-
-      <div class="col-lg-7">
-        <h3 class="pt-0 pt-lg-5">HAPIDANBUI 是一群充滿活力的小夥伴，他們各自擁有獨特的夢想與個性！</h3>
-
-        <!-- Tabs -->
-        <ul class="nav nav-pills mb-3">
-          <li><a class="nav-link active" data-bs-toggle="pill" href="#about-tab1">角色介紹</a></li>
-          <li><a class="nav-link" data-bs-toggle="pill" href="#about-tab2">HAPIDANBUI 的世界</a></li>
-          <li><a class="nav-link" data-bs-toggle="pill" href="#about-tab3">我們的夢想</a></li>
-        </ul><!-- End Tabs -->
-
-        <!-- Tab Content -->
-        <div class="tab-content">
-
-          <div class="tab-pane fade show active" id="about-tab1">
-            <p class="fst-italic">HAPIDANBUI 是由一群三麗鷗角色組成的團體，每位角色都有自己獨特的個性與魅力！</p>
-
-            <div class="d-flex align-items-center mt-4">
-              <i class="bi bi-check2"></i>
-              <h4>帕恰狗（Pochacco）</h4>
-            </div>
-            <p>活潑好動的小狗，最喜歡運動，尤其是跑步和足球！</p>
-
-            <div class="d-flex align-items-center mt-4">
-              <i class="bi bi-check2"></i>
-              <h4>山姆企鵝（Tuxedosam）</h4>
-            </div>
-            <p>紳士風範的藍色企鵝，擁有超過 365 頂帽子，喜歡美食與時尚。</p>
-
-            <div class="d-flex align-items-center mt-4">
-              <i class="bi bi-check2"></i>
-              <h4>大眼蛙（Keroppi）</h4>
-            </div>
-            <p>活潑開朗的青蛙，擅長游泳，喜歡與朋友一起冒險！</p>
-
-            <div class="d-flex align-items-center mt-4">
-              <i class="bi bi-check2"></i>
-              <h4>酷企鵝（Bad Badtz-Maru）</h4>
-            </div>
-            <p>個性叛逆的小企鵝，喜歡搞怪，但內心其實很溫暖！</p>
-
-            <div class="d-flex align-items-center mt-4">
-              <i class="bi bi-check2"></i>
-              <h4>人魚漢頓（Hangyodon）</h4>
-            </div>
-            <p>愛搞笑的魚，夢想成為大明星，雖然常常失敗，但仍然樂觀不放棄！</p>
-
-            <div class="d-flex align-items-center mt-4">
-              <i class="bi bi-check2"></i>
-              <h4>貝克鴨（Pekkle）</h4>
-            </div>
-            <p>溫和善良的小鴨子，擅長跳舞，對朋友非常忠誠！</p>
-
-          </div><!-- End Tab 1 Content -->
-
-          <div class="tab-pane fade" id="about-tab2">
-            <p class="fst-italic">HAPIDANBUI 的世界充滿了歡樂與冒險，每位角色都有自己的小天地！</p>
-            <div class="d-flex align-items-center mt-4">
-              <i class="bi bi-check2"></i>
-              <h4>快樂生活</h4>
-            </div>
-            <p>不論是 Tuxedosam 在品味美食，還是 Hangyodon 計畫新表演，每天都充滿驚喜！</p>
-          </div><!-- End Tab 2 Content -->
-
-          <div class="tab-pane fade" id="about-tab3">
-            <p class="fst-italic">HAPIDANBUI 的每個成員都有自己獨特的夢想，他們努力朝著目標邁進！</p>
-            <div class="d-flex align-items-center mt-4">
-              <i class="bi bi-check2"></i>
-              <h4>我們的夢想</h4>
-            </div>
-            <p>希望透過 HAPIDANBUI 帶給大家快樂，讓每一天都充滿驚喜與幸福！</p>
-          </div><!-- End Tab 3 Content -->
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section><!-- /About Section -->
-
-<!-- Features Section -->
-<section id="features" class="features section">
-  <div class="container" data-aos="fade-up">
-    <ul class="nav nav-tabs row gy-4 d-flex">
-      <li class="nav-item col-6 col-md-4 col-lg-2">
-        <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
-          <i class="bi bi-binoculars" style="color: #0dcaf0;"></i>
-          <h4>帕恰狗</h4>
-        </a>
-      </li><!-- End Tab 1 Nav -->
-
-      <li class="nav-item col-6 col-md-4 col-lg-2">
-        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
-          <i class="bi bi-box-seam" style="color: #6610f2;"></i>
-          <h4>山姆企鵝</h4>
-        </a>
-      </li><!-- End Tab 2 Nav -->
-
-      <li class="nav-item col-6 col-md-4 col-lg-2">
-        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
-          <i class="bi bi-brightness-high" style="color: #20c997;"></i>
-          <h4>大眼蛙</h4>
-        </a>
-      </li><!-- End Tab 3 Nav -->
-
-      <li class="nav-item col-6 col-md-4 col-lg-2">
-        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
-          <i class="bi bi-command" style="color: #df1529;"></i>
-          <h4>酷企鵝</h4>
-        </a>
-      </li><!-- End Tab 4 Nav -->
-
-      <li class="nav-item col-6 col-md-4 col-lg-2">
-        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-5">
-          <i class="bi bi-easel" style="color: #0d6efd;"></i>
-          <h4>人魚漢頓</h4>
-        </a>
-      </li><!-- End Tab 5 Nav -->
-
-      <li class="nav-item col-6 col-md-4 col-lg-2">
-        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-6">
-          <i class="bi bi-map" style="color: #fd7e14;"></i>
-          <h4>貝克鴨</h4>
-        </a>
-      </li><!-- End Tab 6 Nav -->
-    </ul>
-
-    <div class="tab-content">
-      <div class="tab-pane fade active show" id="features-tab-1">
-        <div class="row gy-4">
-          <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-            <h3>帕恰狗</h3>
-            <p class="fst-italic">
-              帕恰狗是一隻充滿熱情的小狗，總是充滿活力，喜歡探索新奇的事物，並且非常熱衷於保護他的朋友們。
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle-fill"></i> 熱衷冒險，總是帶領其他夥伴走向新天地。</li>
-              <li><i class="bi bi-check-circle-fill"></i> 充滿好奇心，總是探索周圍的世界。</li>
-              <li><i class="bi bi-check-circle-fill"></i> 對朋友非常忠誠，是團隊的守護者。</li>
-            </ul>
-          </div>
-          <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/P1.jpg" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div><!-- End Tab Content 1 -->
-
-      <div class="tab-pane fade" id="features-tab-2">
-        <div class="row gy-4">
-          <div class="col-lg-8 order-2 order-lg-1">
-            <h3>山姆企鵝</h3>
-            <p>
-              山姆企鵝是一隻性格冷靜、聰明的角色，他總是冷靜地分析每個情況，給出最合理的建議，成為夥伴們的智囊。
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle-fill"></i> 善於解決難題，智慧過人。</li>
-              <li><i class="bi bi-check-circle-fill"></i> 具有極強的計劃性，為每一次冒險制定最佳策略。</li>
-              <li><i class="bi bi-check-circle-fill"></i> 是團隊的穩定力量，冷靜應對每個挑戰。</li>
-            </ul>
-          </div>
-          <div class="col-lg-4 order-1 order-lg-2 text-center">
-            <img src="assets/img/Sam1.jpg" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div><!-- End Tab Content 2 -->
-
-      <div class="tab-pane fade" id="features-tab-3">
-        <div class="row gy-4">
-          <div class="col-lg-8 order-2 order-lg-1">
-            <h3>大眼蛙</h3>
-            <p>
-              大眼蛙擁有一雙明亮的大眼睛，能夠觀察到周圍最微小的變化，為團隊提供最精準的情報。
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle-fill"></i> 擁有極佳的觀察力，總是能發現關鍵的細節。</li>
-              <li><i class="bi bi-check-circle-fill"></i> 適應力強，能在不同環境中迅速找到自己的立足點。</li>
-              <li><i class="bi bi-check-circle-fill"></i> 是隊伍中的情報員，負責收集並分析重要資訊。</li>
-            </ul>
-          </div>
-          <div class="col-lg-4 order-1 order-lg-2 text-center">
-            <img src="assets/img/keroppi1.jpg" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div><!-- End Tab Content 3 -->
-
-      <div class="tab-pane fade" id="features-tab-4">
-        <div class="row gy-4">
-          <div class="col-lg-8 order-2 order-lg-1">
-            <h3>酷企鵝</h3>
-            <p>
-              酷企鵝總是以冷靜而沉著的態度面對任何挑戰，他是團隊中的領袖，帶領大家走向成功。
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle-fill"></i> 以冷靜沉著的態度引領夥伴們解決問題。</li>
-              <li><i class="bi bi-check-circle-fill"></i> 喜歡挑戰極限，總能在最困難的時刻給出最好的指引。</li>
-              <li><i class="bi bi-check-circle-fill"></i> 在冒險中，他是夥伴們的可靠支持者。</li>
-            </ul>
-          </div>
-          <div class="col-lg-4 order-1 order-lg-2 text-center">
-            <img src="assets/img/bad1.jpg" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div><!-- End Tab Content 4 -->
-
-      <div class="tab-pane fade" id="features-tab-5">
-        <div class="row gy-4">
-          <div class="col-lg-8 order-2 order-lg-1">
-            <h3>人魚漢頓</h3>
-            <p>
-              人魚漢頓是一個擁有美麗歌聲和神秘力量的角色，他的歌聲能夠治癒夥伴的心靈，並帶來平靜的力量。
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle-fill"></i> 美麗的歌聲擁有治癒力量，能夠幫助夥伴們放鬆和恢復精力。</li>
-              <li><i class="bi bi-check-circle-fill"></i> 擁有神秘的力量，能夠影響周圍的環境。</li>
-              <li><i class="bi bi-check-circle-fill"></i> 是團隊中的心靈導師，總能安撫緊張的情緒。</li>
-            </ul>
-          </div>
-          <div class="col-lg-4 order-1 order-lg-2 text-center">
-            <img src="assets/img/hang1.jpg" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div><!-- End Tab Content 5 -->
-
-      <div class="tab-pane fade" id="features-tab-6">
-        <div class="row gy-4">
-          <div class="col-lg-8 order-2 order-lg-1">
-            <h3>貝克鴨</h3>
-            <p>
-              貝克鴨是一位以美食為己任的角色，他總是為團隊準備美味的食物，讓大家能量滿滿地繼續冒險。
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle-fill"></i> 美食大師，總是能為夥伴準備豐富的餐點。</li>
-              <li><i class="bi bi-check-circle-fill"></i> 喜歡挑戰烹飪，並且用美食來促進團隊合作。</li>
-              <li><i class="bi bi-check-circle-fill"></i> 是團隊中的“大廚”，每一頓飯都能帶來滿滿的幸福感。</li>
-            </ul>
-          </div>
-          <div class="col-lg-4 order-1 order-lg-2 text-center">
-            <img src="assets/img/pe1.jpg" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div><!-- End Tab Content 6 -->
-    </div>
-  </div>
-</section><!-- /Features Section -->
-
- <!-- Portfolio Section -->
-<section id="portfolio" class="portfolio section">
-
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Gallery</h2>
-    <p>See more HAPIDANBUI!</p>
-  </div><!-- End Section Title -->
-
-  <div class="container-fluid">
-
-    <div class="row g-0 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-      <!-- Portfolio Item -->
-      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/01.jpg" class="img-fluid" alt="">
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/06.jpg" class="img-fluid" alt="">
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/02.jpg" class="img-fluid" alt="">
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/04.jpg" class="img-fluid" alt="">
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/03.jpg" class="img-fluid" alt="">
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/05.jpg" class="img-fluid" alt="">
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/07.jpg" class="img-fluid" alt="">
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/08.jpg" class="img-fluid" alt="">
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/09.jpg" class="img-fluid" alt="">
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/10.jpg" class="img-fluid" alt="">
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/11.jpg" class="img-fluid" alt="">
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/12.jpg" class="img-fluid" alt="">
-        </div>
-      </div>
-
-    </div><!-- End Portfolio Container -->
-
-  </div>
-
-</section><!-- /Portfolio Section -->
 
   </main>
 
-  <footer id="footer" class="footer dark-background">
+  <footer id="footer" class="footer light-background">
 
-    <div class="footer-top">
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 footer-about">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename">HeroBiz</span>
-            </a>
-            <div class="footer-contact pt-3">
-              <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-              <p><strong>Email:</strong> <span>info@example.com</span></p>
-            </div>
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Medilab</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
           </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
-            </ul>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
           </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Hic solutasetp</h4>
-            <ul>
-              <li><a href="#">Molestiae accusamus iure</a></li>
-              <li><a href="#">Excepturi dignissimos</a></li>
-              <li><a href="#">Suscipit distinctio</a></li>
-              <li><a href="#">Dilecta</a></li>
-              <li><a href="#">Sit quas consectetur</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Nobis illum</h4>
-            <ul>
-              <li><a href="#">Ipsam</a></li>
-              <li><a href="#">Laudantium dolorum</a></li>
-              <li><a href="#">Dinera</a></li>
-              <li><a href="#">Trodelas</a></li>
-              <li><a href="#">Flexo</a></li>
-            </ul>
-          </div>
-
         </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Hic solutasetp</h4>
+          <ul>
+            <li><a href="#">Molestiae accusamus iure</a></li>
+            <li><a href="#">Excepturi dignissimos</a></li>
+            <li><a href="#">Suscipit distinctio</a></li>
+            <li><a href="#">Dilecta</a></li>
+            <li><a href="#">Sit quas consectetur</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Nobis illum</h4>
+          <ul>
+            <li><a href="#">Ipsam</a></li>
+            <li><a href="#">Laudantium dolorum</a></li>
+            <li><a href="#">Dinera</a></li>
+            <li><a href="#">Trodelas</a></li>
+            <li><a href="#">Flexo</a></li>
+          </ul>
+        </div>
+
       </div>
     </div>
 
-    <div class="copyright text-center">
-      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
-
-        <div class="d-flex flex-column align-items-center align-items-lg-start">
-          <div>
-            © Copyright <strong><span>MyWebsite</span></strong>. All Rights Reserved
-          </div>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
-        </div>
-
-        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-          <a href=""><i class="bi bi-twitter-x"></i></a>
-          <a href=""><i class="bi bi-facebook"></i></a>
-          <a href=""><i class="bi bi-instagram"></i></a>
-          <a href=""><i class="bi bi-linkedin"></i></a>
-        </div>
-
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Medilab</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
 
@@ -589,9 +239,8 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
